@@ -1,0 +1,11 @@
+@import "bootstrap/scss/bootstrap.scss";
+
+#app {}
+#nav {
+  padding-top: 30px;
+  a {
+    &.router-link-exact-active {
+      color: #42b983;
+    }
+  }
+}
