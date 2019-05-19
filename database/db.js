@@ -2,8 +2,7 @@ const Sequelize = require("sequelize")
 const db = {}
 const sequelize = new Sequelize("nodejs-tasks", "root", "YOUR_PASSWORD_HERE", {
   host: "localhost",
-  dialect: "mysql"
-
+  dialect: "mysql",
   pool: {
     max: 5,
     min: 0,
