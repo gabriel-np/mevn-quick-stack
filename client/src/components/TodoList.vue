@@ -69,7 +69,6 @@ export default {
         this.axios.get("/api/tasks").then(
            result => {
               this.todos = result.data
-              this.sortDynamicDropDownMenu()
            },
            error => {
               console.error(error)
